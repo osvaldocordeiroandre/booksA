@@ -13,7 +13,7 @@ function App() {
     {id:'5', nome:'A Cor da Vida', imagem:'https://meupdf.com/livro/capa/imglivro30564.jpg', link:'https://drive.google.com/file/d/1rxzlx-uaXG_Hiq-l_aPkKy_B_gDn6epP/preview'},
     {id:'6', nome:'Ladrão de casaca', imagem:'https://meupdf.com/livro/capa/imglivro21207.jpg', link:'https://drive.google.com/file/d/1QILkFOSflVYgHnLighNmmmWT5qhNZMB9/preview'},
     {id:'7', nome:'Os mortos nos falam', imagem:'https://meupdf.com/livro/capa/imglivro17825.jpg', link:'https://drive.google.com/file/d/1gI3P773hzppWJjVHtmKUzANMIUxP692M/preview'},
-    {id:'8', nome:'A Última Festa', imagem:'https://m.media-amazon.com/images/I/411WhY4AUHL.jpg', link:'https://ia601800.us.archive.org/23/items/a-ultima-festa/A%20Ultima%20Festa.pdf'},
+    {id:'8', nome:'A Última Festa', imagem:'https://m.media-amazon.com/images/I/411WhY4AUHL.jpg', link:'https://drive.google.com/file/d/1HQtpjUyp0e34bxHRrKTZ9fIjOvNzNWr0/preview'},
     
   ]
 

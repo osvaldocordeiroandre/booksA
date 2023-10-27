@@ -86,7 +86,7 @@ iframe{
 
 .close{
   position: absolute;
-  right: 0;
+  left: 0;
 
   font-size: 30px;
 
@@ -96,8 +96,8 @@ iframe{
 
   border: none;
 
-  margin-top: 70px;
-  margin-right: 30px;
+  margin-top: 10px;
+  margin-left: 30px;
 
   cursor: pointer;
 
