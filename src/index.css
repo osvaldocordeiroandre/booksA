@@ -70,15 +70,14 @@
 
 .popup{
   position: fixed;
-
-  bottom: 20%;
+  top: 0;
 }
 
 iframe{
   position: relative;
 
-  width: 52rem;
-  height: 30rem;
+  width: 100vw;
+  height: 100vh;
 
   border-radius: 10px;
 
@@ -102,6 +101,8 @@ iframe{
   cursor: pointer;
 
   transition: .5s;
+
+  color: rgb(36, 36, 36);
 }
 
 .close:hover{
@@ -112,7 +113,7 @@ iframe{
 
 @media (max-width: 900px) {
   iframe{
-    width: 23rem;
-    height: 50vh;
+    width: 100vw;
+    height: 100vh;
   }
 }
