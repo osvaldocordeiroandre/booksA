@@ -86,6 +86,7 @@ iframe{
 
 .close{
   position: absolute;
+  right: 0;
 
   font-size: 30px;
 
@@ -95,14 +96,14 @@ iframe{
 
   border: none;
 
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 70px;
+  margin-right: 30px;
 
   cursor: pointer;
 
   transition: .5s;
 
-  color: rgb(36, 36, 36);
+  color: orange;
 }
 
 .close:hover{
