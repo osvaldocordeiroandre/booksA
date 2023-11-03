@@ -7,6 +7,7 @@ import './index.css'
 function App() {
   const books = [
 
+    {id:'2', nome:'A Úiltima carta de amor', imagem:'https://m.media-amazon.com/images/I/71ieYxbYt6L._AC_UF350,350_QL50_.jpg', link:'https://drive.google.com/file/d/1-a5v4ZGLOC6-9qJew-fEAsMcpuklPYqo/preview'},
     { id: '1', nome: 'A Última Festa', imagem: 'https://m.media-amazon.com/images/I/411WhY4AUHL.jpg', link: 'https://drive.google.com/file/d/1HQtpjUyp0e34bxHRrKTZ9fIjOvNzNWr0/preview' },
 
   ]
