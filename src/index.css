@@ -125,6 +125,10 @@ iframe {
   align-items: center;
 }
 
+.booksSpace a{
+  padding: 6px;
+}
+
 .adjustDownload{
   display: flex;
   flex-direction: column;
