@@ -20,7 +20,7 @@ function App() {
   const [iframeLink, setIframeLink] = useState("");
   const [searchTerm, setSearchTerm] = useState("");
 
-  const [loadingbook, setLoadingbook] = useState(false);
+  const [loadingbook, setLoadingbook] = useState(true);
   const [bookOnload, setBookOnload] = useState(false);
 
   const handleOnload = () => {
@@ -50,6 +50,13 @@ function App() {
   const handlwDownload= () => {
     setLoadingbook(false)
 
+  }
+
+  const [onloadPage, setOnloadPage] = useState(false)
+
+  const PageOnload = () => {
+    setOnloadPage(true)
+    setLoadingbook(false)
   }
 
   const filteredbook = books.filter((bookSe) => bookSe.nome.toLocaleLowerCase().includes(searchTerm.toLowerCase()))
@@ -82,9 +89,9 @@ function App() {
 
           <div className="booksSpace" key={book.id}>
 
-            <div className='adjustDownload' onClick={handleClick}>
+            <div className='adjustDownload' style={{display: onloadPage ? 'flex' : 'none'}}  onClick={handleClick}>
 
-              <img className='bookimage' src={book.imagem} alt={book.nome} onClick={() => openPopup(book.link)} />
+              <img className='bookimage' onLoad={PageOnload} src={book.imagem} alt={book.nome} onClick={() => openPopup(book.link)} />
 
             </div>
 
