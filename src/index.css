@@ -20,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   width: 100%;
 }
@@ -136,6 +137,34 @@ iframe {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.GeneroButtons{
+  margin-top: 30px;
+}
+
+.GeneroButtons button {
+  margin: 4px;
+
+  padding: 4px;
+
+  border-radius: 4px;
+  border: none;
+
+  color: white;
+
+  background-color: rgb(70, 69, 69);
+
+  cursor: pointer;
+
+  font-family: sans-serif;
+
+  transition: .5s;
+}
+
+.GeneroButtons button:hover{
+  transform: scale(.9);
+  transition: .5s;
 }
 
 @media (max-width: 900px) {
