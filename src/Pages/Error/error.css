@@ -1,0 +1,36 @@
+.containerError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100vh;
+}
+
+.containerError button {
+    margin-top: 30px;
+
+    background-color: orange;
+
+    border: none;
+
+    padding: 8px;
+
+    border-radius: 4px;
+
+    outline: none;
+
+    font-weight: bold;
+
+    color: rgb(61, 61, 61);
+
+    transition: .5s;
+}
+
+.containerError button:hover{
+    transform: scale(.9);
+
+    cursor: pointer;
+
+    transition: .5s;
+}
